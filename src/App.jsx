@@ -8,7 +8,7 @@ export function App() {
     <>
       <Header />
       <Main>
-        <Title text="Labas rytas, Lietuva!" />
+        <Title text="Labas rytas, Lietuva!" desc="" />
         <div>🟨🟩🟥</div>
         
         <Calc a={7} b={5} />
