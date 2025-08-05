@@ -1,0 +1,32 @@
+
+.text-list .title {
+    font-size: 3rem;
+
+}
+
+.text-list .ul {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+.text-list li {
+display: flex;
+}
+
+.text-list .number {
+    font-size: 1.2rem;
+    line-height: 1em;
+}
+
+.text-list .name {
+    font-size: 1.2rem;
+    line-height: 1em;
+}
+
+.text-list .color {
+    width: 10rem;
+    height: 2rem;
+    margin-left: auto;
+    background-color: #eee;
+}

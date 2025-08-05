@@ -1,0 +1,20 @@
+.cookieClicker {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+}
+
+.cookieClicker .count {
+    font-size: 5rem;
+}
+
+.cookieClicker .btn {
+    display: flex;
+    align-items: center;
+    height: 5rem;
+    padding: 0 2rem;
+    font-size: 5rem;
+    line-height: 1em;
+    background-color: #ccc;
+}
