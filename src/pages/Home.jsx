@@ -1,12 +1,15 @@
-import { Header } from '../components/Header';
 
 export function Home() {
     return (
-        <>
-            <Header />
             <main>
-                HOME PAGE
+                <section className="container">
+                    <div className="row">
+                        <div className="col-12 col-md-6 col-lg-4 col-xxl-3">
+                            HOME PAGE
+                        </div>
+                    </div>
+                </section>
+               
             </main>    
-        </>
     );
 }
