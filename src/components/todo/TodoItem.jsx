@@ -24,10 +24,13 @@ export function TodoItem({ task, modifyTaskTextFunc, modifyTaskCompletionFunc })
             </li>
         );
     }
+    const style = {
+        backgroundColor: '#f1f1f1',
+    };
 
     return (
         <li className="d-flex my-3 p-2" key={task.id}
-            style={{ backgroundColor: '#f1f1f1' }}>
+            style={style}>
             {text}
             {!task.isCompleted && (
                 <button onClick={() => setIsEditMode(true)} className="btn btn-warning btn-sm ms-auto">Edit</button>

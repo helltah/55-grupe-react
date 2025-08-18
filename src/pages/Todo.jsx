@@ -39,6 +39,7 @@ export function Todo() {
                 id: id,
                 text: text,
                 isCompleted: false,
+                
             },
         ]);
         setId(id => id + 1);

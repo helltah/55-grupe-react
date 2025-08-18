@@ -1,10 +1,9 @@
 export function Main({ children }) {
-
     return (
-        <main> 
+        <main>
             MAIN CONTENT - START
             {children}
             MAIN CONTENT - END
         </main>
-      )
+    );
 }

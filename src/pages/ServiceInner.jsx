@@ -1,6 +1,6 @@
 import { useParams } from "react-router";
 
-export function ServicesInner() {
+export function ServiceInner() {
     const { service } = useParams();
 
     return (

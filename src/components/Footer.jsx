@@ -1,5 +1,5 @@
 import { Link } from "react-router";
-import { menuData } from "./data/menuData";
+import { menuData } from "../data/MenuData";
 
 export function Footer() {
     return (
@@ -11,7 +11,7 @@ export function Footer() {
                         menuData.map(item => (
                             <li key={item.href} className="nav-item">
                                 <Link className='nav-link' to={item.href}>{item.text}</Link>
-                            </li>   
+                            </li>
                         ))
                     }
                 </ul>
